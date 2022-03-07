@@ -13,6 +13,7 @@ function handleSubmit(event) {
     date: date
   };
   console.log(newEntry)
+  props.addNewEntryProperty(newEntry)
 }
 
 
